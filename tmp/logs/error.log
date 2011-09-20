@@ -1,0 +1,239 @@
+2011-09-19 18:43:35 Error: [MissingControllerException] Controller class LoginsController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 18:43:38 Error: [MissingControllerException] Controller class LoginController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 19:01:55 Error: [MissingActionException] Action UsersController::login() could not be found.
+#0 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#1 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#2 {main}
+2011-09-19 20:05:49 Error: [MissingControllerException] Controller class LoginsController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 20:06:32 Error: [MissingControllerException] Controller class LoginsController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 20:06:36 Error: [MissingControllerException] Controller class LoginsController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 21:30:52 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 21:53:08 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 22:19:05 Error: [MissingControllerException] Controller class QuestionController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 23:32:28 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 23:32:44 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-19 23:58:13 Error: [PrivateActionException] Private Action UsersController::__validateLoginStatus() is not directly accessible.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 00:52:02 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 00:53:39 Error: [MissingActionException] Action UsersController::delete() could not be found.
+#0 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#1 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#2 {main}
+2011-09-20 00:54:42 Error: [MissingActionException] Action UsersController::delete() could not be found.
+#0 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#1 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#2 {main}
+2011-09-20 00:55:14 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 00:55:47 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 00:56:11 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 01:01:53 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 01:05:11 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 01:06:07 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 01:09:48 Error: [PrivateActionException] Private Action UsersController::__validateLoginStatus() is not directly accessible.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 01:09:57 Error: [PrivateActionException] Private Action UsersController::__validateLoginStatus() is not directly accessible.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 01:10:02 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 01:16:00 Error: [PrivateActionException] Private Action UsersController::__validateLoginStatus() is not directly accessible.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 01:16:52 Error: [PrivateActionException] Private Action UsersController::__validateLoginStatus() is not directly accessible.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 01:48:37 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 03:14:05 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 03:33:38 Error: [NotFoundException] Invalid question
+#0 [internal function]: QuestionsController->view()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 03:35:27 Error: [NotFoundException] Invalid question
+#0 [internal function]: QuestionsController->view()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 03:35:57 Error: [NotFoundException] Invalid question
+#0 [internal function]: QuestionsController->view()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 03:36:01 Error: [NotFoundException] Invalid question
+#0 [internal function]: QuestionsController->view()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 03:37:19 Error: [NotFoundException] Invalid question
+#0 [internal function]: QuestionsController->view()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 03:42:51 Error: [NotFoundException] Invalid question
+#0 [internal function]: QuestionsController->view()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 11:42:06 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:02:26 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:02:33 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:04:10 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:04:42 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:05:07 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:05:18 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 14:05:42 Error: [MissingControllerException] Controller class PublicPollController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 17:57:52 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 17:58:32 Error: [MissingControllerException] Controller class UserController could not be found.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
+2011-09-20 17:58:40 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:22:25 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:22:31 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:23:57 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete('1')
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:24:14 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->delete()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:25:56 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->deleteaccount()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:26:27 Error: [MissingActionException] Action UsersController::deleteaccount() could not be found.
+#0 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#1 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#2 {main}
+2011-09-20 18:28:56 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: UsersController->deleteaccount()
+#1 C:\xampp\cake\cake\libs\dispatcher.php(170): call_user_func_array(Array, Array)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#3 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#4 {main}
+2011-09-20 18:29:13 Error: [MissingViewException] View file "C:\xampp\htdocs\public_poll\views\users\deleteaccount.ctp" is missing.
+#0 C:\xampp\cake\cake\libs\view\view.php(388): View->_getViewFileName(NULL)
+#1 C:\xampp\cake\cake\libs\controller\controller.php(848): View->render(NULL, NULL, NULL)
+#2 C:\xampp\cake\cake\libs\dispatcher.php(174): Controller->render()
+#3 C:\xampp\cake\cake\libs\dispatcher.php(119): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#5 {main}
+2011-09-20 18:32:09 Error: [PrivateActionException] Private Action UsersController::__deleteaccount() is not directly accessible.
+#0 C:\xampp\htdocs\public_poll\webroot\index.php(77): Dispatcher->dispatch(Object(CakeRequest))
+#1 {main}
