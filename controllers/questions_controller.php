@@ -64,13 +64,7 @@ class QuestionsController extends AppController {
 	}
 
 	public function delete($id = null) {
-		if (!$this->request->is('post')) {
-			throw new MethodNotAllowedException();
-		}
 		$this->Question->id = $id;
-		if (!$this->Question->exists()) {
-			throw new NotFoundException(__('Invalid question'));
-		}
 		if ($this->Question->delete()) {
 			$this->Session->setFlash(__('Question deleted'));
 			$this->redirect(array('action'=>'index'));

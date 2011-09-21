@@ -35,6 +35,8 @@ class OptionsController extends AppController {
 				$this->Session->setFlash(__('The option could not be saved. Please, try again.'));
 			}
 		}
+		$questions = $this->Option->Question->read(null,$this->Session->read('QId'));
+		$this->set('questions',$questions);
 	}
 
 	public function edit($id = null) {
@@ -53,7 +55,6 @@ class OptionsController extends AppController {
 			$this->data = $this->Option->read(null, $id);
 		}
 		$questions = $this->Option->Question->read(null,$this->Session->read('QId'));
-		$this->Session->delete('que');
 		$this->set('questions',$questions);
 	}
 

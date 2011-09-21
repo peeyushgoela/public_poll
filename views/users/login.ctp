@@ -12,6 +12,7 @@ echo '</div>';?>
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('SignUp'), array('action' => 'signup')); ?></li>
-		<li><?php echo $this->Html->link(__('Participate in Public Poll'), array('controller' => 'answers', 'action' => 'index')); ?> </li>
+		<!--<li>Participate In Poll(to be built)</li>-->
+		<li><?php echo $this->Html->link(__('Participate in Public Poll'), array('controller' => 'users', 'action' => 'login'),null,'this link is currently under production'); ?> </li>
 	</ul>
 </div>

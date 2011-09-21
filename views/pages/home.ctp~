@@ -1,5 +1,5 @@
 Yes yes i got into the home file
-<?php header("Location:users/login");exit;?>
+<?php header("Location:users/index");exit;?>
 <!--<h2>Sweet, "Public Poll" got Baked by CakePHP!</h2>
 
 <?php

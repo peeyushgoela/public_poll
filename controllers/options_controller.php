@@ -59,13 +59,7 @@ class OptionsController extends AppController {
 	}
 
 	public function delete($id = null) {
-		if (!$this->request->is('post')) {
-			throw new MethodNotAllowedException();
-		}
 		$this->Option->id = $id;
-		if (!$this->Option->exists()) {
-			throw new NotFoundException(__('Invalid option'));
-		}
 		if ($this->Option->delete()) {
 			$this->Session->setFlash(__('Option deleted'));
 			$this->redirect(array('action'=>'index'));

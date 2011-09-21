@@ -42,7 +42,7 @@
 			<td><?php echo $option['option'];?></td>
 			<td class="actions">
 				<?php echo $this->Html->link(__('Edit'), array('controller' => 'options', 'action' => 'edit', $option['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'options', 'action' => 'delete', $option['id']), null, __('Are you sure you want to delete # %s?', $option['id'])); ?>
+				<?php echo $this->Html->link(__('Delete'), array('controller' => 'options', 'action' => 'delete', $option['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -59,7 +59,7 @@
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Question'), array('action' => 'edit', $question['Question']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Question'), array('action' => 'delete', $question['Question']['id']), null, __('Are you sure you want to delete # %s?', $question['Question']['id'])); ?> </li>
+		<li><?php echo $this->Html->Link(__('Delete Question'), array('controller'=>'questions','action' => 'delete', $question['Question']['id'])); ?> </li>
 		<li><?php echo $this->Html->link(__('List Questions'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Question'), array('action' => 'add')); ?> </li>
 	</ul>

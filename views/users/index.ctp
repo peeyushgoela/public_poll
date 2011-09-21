@@ -46,7 +46,7 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('New Question'), array('controller' => 'questions', 'action' => 'add')); ?> </li>
 		<?php $my_user=$this->Session->read('User');?>
-		<li><?php echo $this->Html->link(__('Delete Account'), array('controller'=>'users','action' => 'deleteaccount'));?> </li>
+		<li><?php echo $this->Html->link(__('Delete Account'), array('controller'=>'users','action' => 'deleteaccount'),null,'Are You Sure You Want to delete Your Account')?> </li>
 		<li><?php echo $this->Html->link(__('LogOut'), array('action' => 'logout')); ?> </li>
 	</ul>
 </div>

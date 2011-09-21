@@ -3,19 +3,9 @@ class AnswersController extends AppController {
 
 	public $name = 'Answers';
 
-	public function beforeFilter()
-	{
-		$this->__answersvalidateLoginStatus();
-	}
-	
-	function __answersvalidateLoginStatus()
-	{
-		if($this->Session->check('User')==true)
-			{$this->redirect(array('controller'=>'Users','action'=>'index'));}
-	}
-	
 	public function index() {
-		$this->set('questions', $this->paginate($this->Answer->Question, array('1'=>'1')));
+		$this->Answer->recursive = 0;
+		$this->set('answers', $this->paginate());
 	}
 
 	public function view($id = null) {
@@ -26,8 +16,7 @@ class AnswersController extends AppController {
 		$this->set('answer', $this->Answer->read(null, $id));
 	}
 
-	public function add($id=NULL) {
-		if($id==null)$this->redirect(array('action'=>'index'));
+	public function add() {
 		if ($this->request->is('post')) {
 			$this->Answer->create();
 			if ($this->Answer->save($this->request->data)) {
@@ -37,10 +26,9 @@ class AnswersController extends AppController {
 				$this->Session->setFlash(__('The answer could not be saved. Please, try again.'));
 			}
 		}
-		$questions = $this->Answer->Question->read(null,$id);
-		$answers = $this->Answer->Option->read(null,$id);
-		$this->set('questions',$questions);
-		$this->set('answers',$answers);
+		$questions = $this->Answer->Question->find('list');
+		$answers = $this->Answer->Answer->find('list');
+		$this->set(compact('questions', 'answers'));
 	}
 
 	public function edit($id = null) {
@@ -79,3 +67,4 @@ class AnswersController extends AppController {
 		$this->redirect(array('action' => 'index'));
 	}
 }
+s

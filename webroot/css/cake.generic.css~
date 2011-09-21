@@ -71,7 +71,6 @@ ul, li {
 /** Layout **/
 #container {
 	text-align: left;
-	
 }
 
 #header{

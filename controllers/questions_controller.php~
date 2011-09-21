@@ -17,10 +17,12 @@ class QuestionsController extends AppController {
 	}
 	
 	public function index() {
+		$this->Session->delete('QId');
 		$this->redirect(array('controller'=>'Users','action'=>'index'));
 	}
 
 	public function view($id = null) {
+		$this->Session->write('QId',$id);
 		$this->Question->id = $id;
 		if (!$this->Question->exists()) {
 			throw new NotFoundException(__('Invalid question'));
@@ -41,6 +43,8 @@ class QuestionsController extends AppController {
 	}
 
 	public function edit($id = null) {
+		
+		$this->Session->write('QId',$id);
 		$this->Question->id = $id;
 		if (!$this->Question->exists()) {
 			throw new NotFoundException(__('Invalid question'));

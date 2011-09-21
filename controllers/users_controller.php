@@ -78,6 +78,8 @@ class UsersController extends AppController {
 				exit();
 			}
 		}
+		if($this->action=='login'&&$this->Session->check('Users'))
+			$this->redirect(array('action'=>'index'));
 	}
 	
 	public function deleteaccount() 
